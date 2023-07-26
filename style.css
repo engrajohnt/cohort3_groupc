@@ -394,6 +394,67 @@ main .about .about__header p{
 
 
  /* media queries footer */
+@media screen and (max-width: 500px) {
+    .footer {
+
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .footer__copyright {
+        position: absolute;
+        bottom: 0;
+    }
+
+
+    .footer-wrap {
+        gap: 65px;
+        font-size: .8rem;
+        justify-content: center;
+        word-spacing: -1px;
+
+    }
+
+
+    .footer__icons {
+        position: relative;
+        bottom: 130px;
+    }
+
+    .footer__icons i {
+        padding: 0 6px;
+    }
+
+    .footer_logo {
+        position: relative;
+        top: 70px;
+        left: 50px;
+
+    }
+
+    .footer .footer-four .footer__form input {
+
+        width: 350px;
+        margin-right: 40px;
+    }
+
+    .footer .footer-four .footer_form .footer_btn {
+        padding: 10px 15px;
+        font-size: .9rem;
+        position: absolute;
+        bottom: 393px;
+        right: 35px;
+    }
+
+    .footer__copyright {
+        font-size: smaller;
+        margin-left: 100px;
+
+    }
+
+}
  
 
 
