@@ -313,6 +313,27 @@ main .Side-bar-info h2{
 /* about */
 
 
+main .about{
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 25vh;
+
+    
+}
+main .about .about__header h2{
+    font-size: 2.7rem;
+    color: var(--DARK-BLUE);
+}
+
+main .about .about__header p{
+    margin: 10px 0px;
+    font-size: .905rem;
+    line-height: 1.7;
+    color: var(--DARK-GREYISH-BLUE);
+}
+
+
 /* media queries */
 
 
