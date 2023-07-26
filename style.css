@@ -425,11 +425,32 @@ main .about .about__header p{
 /* about-media queries */
 
 /* testimonials */
+main .testimonials{
+    margin: 20vh 0px 0px;
+    max-width: 100%;
+    
+    
+}
+main .testimonials .testimonials-cards{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+    
+   
 
-/* media queries */
+}
+
+main .testimonials .testimonials-cards .testimonials-gallery .Test-title{
+    color: var(--DARK-BLUE);
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    
+
+}
 
 
-  
 /*  testimonials- media queries */
 /* main */
 
