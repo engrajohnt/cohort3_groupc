@@ -370,17 +370,107 @@ main .about .about__header p{
 
 /* about-media queries */
 
-/* testimonials */
-
-/* media queries */
-
-
-  
 /*  testimonials- media queries */
 /* main */
 
 /* Pre-Footer */
+.Pre-Footer{
+    height: 25vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 6vh 0px;
+    align-items: center;
+    background-image: url(images/bg-tablet-pattern.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--BRIGHT-RED);
+    background-blend-mode:color-burn;
+    /* width: 100rem;  
+    position: relative;
+    right: 120px ; */
+    
+}
+.Pre-Footer h2{
+    color: var(--VERY-LIGHT-GREY);
+    font-size: 2rem;
+    position: relative;
+    right: 150px;
+}
+.Pre-Footer .Pre-Footer__btn{
+    background: var(--VERY-LIGHT-GREY);
+    color: var(--BRIGHT-RED);
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+}
+ /* media queries */
+ @media screen and (max-width: 500px) {
+    .Pre-Footer{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: 280px;
+    }
+    .Pre-Footer h2{
+        font-size: 2rem;
+        padding: 5px 5px;
+        text-align: center;
+        position: relative;
+        left: 10px;
+        word-break: break-all;
+        
+    } 
+}
+@media screen and (max-width: 375px) {
+    .Pre-Footer h2{
+        font-size: 1.6em;
+        text-align: center;
+}
+}
 
+ /* Pre-Footer-media queries x*/
+
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10vh 18vh;
+    background: var(--VERY-DARK-BLUE);
+    color: var(--VERY-LIGHT-GREY);
+    position: relative;
+    width: 100%;
+     
+}
+.footer .footer-one{
+    display: flex;
+    flex-direction:column;
+    gap: 30px;
+}
+.footer .footer-one .footer_logo{
+    filter: brightness(10);
+}
+
+.footer .footer-one .footer__icons > i{
+    margin: 0px 7px 0px 0px;
+    font-size: 1.3rem;
+    transition: all .3s ease;
+    cursor: pointer;
+    position: relative;
+    top: 80px;
+}
+.footer .footer-one .footer__icons > i:hover{
+    color: var(--BRIGHT-RED);
+}
+.footer .footer-two ul li,
+.footer .footer-three ul li{
+    margin: 15px 0px;
+    transition:  all .3s ease;
+    cursor: pointer;
+}
+
+
+  
  /* media queries */
  
 
