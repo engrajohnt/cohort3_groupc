@@ -372,6 +372,30 @@ main .about .about__header p{
 
 /* testimonials */
 
+
+main .testimonials .testimonials__card-info p{
+    font-size: .805rem;
+    line-height: 1.7;
+    margin-top: 20px;
+    color: var(--DARK-GREYISH-BLUE);
+}
+main .testimonial__btn {
+    display: flex;
+    justify-content: center;
+   
+}main .testimonial__btn .btn{
+    margin: 10px 0px;
+}
+
+.testimonials-gallery-wrapper{
+    padding: 30px 0px;
+    display: flex;
+    gap: 20px;
+    width: 115%;
+    position: relative;
+    right: 86px;
+        
+}
 /* media queries */
 
 
