@@ -391,6 +391,46 @@ main .about .about__header p{
 
 /* footer */
 
+.footer .footer-two ul li:hover,
+.footer .footer-three ul li:hover{
+    color: var(--BRIGHT-RED);
+}
+.footer .footer-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer .footer-four .footer__form input{
+    padding: 10px 10px;
+    outline: none;
+    border-radius: 30px;
+    border: none;
+    position: relative;
+    bottom: 50px;
+}
+
+footer .footer-four .footer__form input::placeholder{
+    color: var(--DARK-GREYISH-BLUE);
+}
+footer .footer-four .footer_form .footer_btn{
+    padding: 7px 15px;    
+    border-radius: 20px;
+    font-size: .9rem;
+    margin-left: 4px;
+    position: relative;
+    bottom: 50px;
+}
+.footer .footer-four small{
+    color: var(--DARK-GREYISH-BLUE);
+}
+
+.footer-wrap{
+    display: flex;
+    gap: 250px;
+    position: relative;
+    bottom: 22px;
+    line-height: 30px;
+}
 
 
  /* media queries footer */
