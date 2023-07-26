@@ -364,7 +364,61 @@ main .about .about__header p{
 }
 
 
-/* media queries */
+
+/* media queries  */
+@media screen and (max-width: 500px){
+    main .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .about .about__header h2{
+        font-size: 2.3rem;
+        text-align: center;
+        
+       
+        
+    }
+
+    main .about .about__header p{
+        text-align: center;
+    }
+
+    main .about .about__description{
+        position: relative;
+        left: -10px;
+    }
+
+    main .about .about__description h2{
+        background-color: var(--VERY-PALE-RED);
+        background-size: auto;
+    }
+
+
+    @media screen and (max-width: 375px){
+        main .about .about__description h2{
+            font-size: .8rem;
+
+        }
+
+
+    }
+
+    
+   main .about .about__description{
+    position: relative;
+
+    top: 10px;
+}
+
+  main .about .about__header h2{
+    font-size: 2.3rem;
+    
+    
+}
+
+}
+
 
 
 
