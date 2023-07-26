@@ -1,0 +1,404 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+/* reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Font and Colour */
+:root{
+    --FF-VIETNAM : 'Be Vietnam Pro', sans-serif;
+    --BRIGHT-RED:hsl(12, 88%, 59%);
+    --DARK-BLUE:hsl(228, 39%, 23%);
+    --DARK-GREYISH-BLUE:hsl(227, 12%, 61%);
+    --VERY-DARK-BLUE:hsl(233, 12%, 13%);
+    --VERY-PALE-RED:hsl(13, 100%, 96%);
+    --VERY-LIGHT-GREY:hsl(0, 0%, 98%);
+    --BOX-SHADOW: 0px 10px 30px rgba(0, 0, 0, 0.2);
+}
+a{
+    text-decoration: none;
+    color: unset;
+}
+li{
+    list-style: none;
+}
+input{
+    outline: none;
+}
+img{
+    width: 100px;
+}
+body{
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    font-family: var(--FF-VIETNAM);
+    /* padding: 0px 40px; */
+}
+.none{
+    display: none;
+}
+.btn{
+    padding: 10px;
+    background: var(--BRIGHT-RED);
+    border: none;
+    color: var(--VERY-LIGHT-GREY);
+    border-radius: 20px;
+    font-size: .8rem;
+    box-shadow: var(--BOX-SHADOW);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+
+
+/* header */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    width: 100%;
+    max-width: 1300px;
+    top: 0;
+    height: 15vh;
+     /* background: white;  */
+     background-size: 20px;
+    
+
+    z-index: 100;
+}
+.header .header__logo{
+    width: 140px;
+    height: 100px;
+    
+}
+.header .header__logo img{
+    max-width: 100%;
+    object-fit: cover;
+    width: 150px;
+    position: relative;
+    top: 5px;
+}
+.header .navlist{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    font-size: .9.7rem;
+    position: relative;
+    left: 70px;
+}
+.header ul li{
+    transition: all .3s ease;
+    color: var(--DARK-BLUE);
+}
+.header ul li:hover{
+    opacity: .5;
+}
+.header .header__btn{
+    padding: 10px;
+    background: var(--BRIGHT-RED);
+    border: none;
+    color: var(--VERY-LIGHT-GREY);
+    border-radius: 20px;
+    font-size: .8rem;
+    box-shadow: var(--BOX-SHADOW);
+    position: relative;
+    left: 200px;
+    padding: 12px 15px;
+    margin-top: 10px;
+}
+.hamburger{
+    display: none;
+}
+.hamburger > i{
+    font-size: 1.2rem;
+    font-weight: 900;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+
+
+
+
+
+/* media queries */
+@media screen and (max-width: 800px){
+    .header__btn{
+        display: none;
+    }
+    .header .navlist{
+        flex-direction: column;
+        position: absolute;
+        background: var(--VERY-LIGHT-GREY);
+        width: 330px;
+        padding: 20px 0px;
+        top: 180px;
+        left: 200px;
+        height: 40vh;
+        left: -1000px;
+        opacity: 0;
+        transition: all .3s ease;
+        z-index: 2000;
+    }
+    .header .navlist.active{
+        opacity: 1;
+        left: 200px;
+    }
+ .hamburger{
+        display: flex;
+    }
+}
+@media screen and (max-width: 540px){
+    .header .navlist.active{
+         left: 50%;
+          top: 260%;
+          transform: translate(-50%, -50%);
+    } 
+} 
+/* /header media queries / */
+
+
+/* main */
+
+/* Side-bar */
+main{
+    background: url(images/bg-tablet-pattern.svg) top right / 700px 750px no-repeat, 
+    url(images/bg-tablet-pattern\ 2.svg) top left / 620px 700px  no-repeat ;
+    padding : 18vh 6vw;
+    background-position: 119% -20%, -40% 85% ;  
+
+}
+main .Side-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    gap: 20px;
+    
+}
+main .Side-bar-info {
+    padding: 0px 7px;
+    color: var(--DARK-BLUE);
+}
+main .Side-bar-info h2{
+    font-size: 8em;
+    
+    
+
+}
+
+main .Side-bar-info p{
+    font-size: .9rem;
+    margin: 15px 0px;
+    color: var(--DARK-GREYISH-BLUE);
+    line-height: 1.7;
+   
+}
+
+
+main .Side-bar-info .Side-bar__btn{
+    padding: 12px 15px;
+    margin-top: 10px;
+}
+main .Side-bar-image{
+    width: 450px;
+    position: relative;
+    left: 80px;
+}
+main .Side-bar-image img{
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+/* media queries */
+@media screen and (max-width: 820px){
+    main .Side-bar{
+        grid-template-columns: 1fr;
+    }
+    main .Side-bar-info {
+        order: 2;
+        text-align: center;
+    }
+    main .Side-bar-image{
+        order: 1;
+        width: 100%;
+        position: relative;
+        left: -10px;
+
+    }
+    main .Side-bar-info h2{
+        font-size: 2.4rem;
+    }
+    main .Side-bar-info p{
+        font-size: 1rem ;
+    }
+}
+    
+@media screen and (max-width: 500px){
+    main .Side-bar-info h2{
+        font-size: 1.3rem;
+        padding: 0;
+    }
+
+    main{
+        background: url(images/bg-tablet-pattern.svg) top right / 500px  no-repeat,
+        url(images/bg-tablet-pattern\ 2.svg) top right/ 400px  no-repeat ;
+        padding : 18vh 6vw;
+            background-position: -300% -2%, 350% 22% ;
+    }
+    
+    main .Side-bar-image{
+        order: 1;
+        width: 90%;
+        position: relative;
+        left: -10px;
+    }
+
+    
+}
+main .Side-bar-info h2{
+    font-size: 3rem;
+}
+
+@media screen and (max-width: 375px){
+    main .Side-bar-image{
+        order: 1;
+        width: 90%;
+        position: relative;
+        left: 35px;
+    }    
+
+    main{
+        background: url(images/bg-tablet-pattern.svg) top right / 400px 430px no-repeat ,  
+        url(images/bg-tablet-pattern\ 2.svg) top right/ 400px   no-repeat ;
+        padding : 18vh 6vw;
+            background-position: -180% -2% , -400% 23% ;
+    }
+
+}
+
+
+/* Side-Bar media queries */
+/* Side-bar */
+
+
+/* media queries */
+ 
+
+
+
+
+/* Side-Bar media queries */
+
+
+/* about */
+
+
+/* no5 */
+/* media queries  */
+@media screen and (max-width: 500px){
+    main .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .about .about__header h2{
+        font-size: 2.3rem;
+        text-align: center;
+        
+       
+        
+    }
+
+    main .about .about__header p{
+        text-align: center;
+    }
+
+    main .about .about__description{
+        position: relative;
+        left: -10px;
+    }
+
+    main .about .about__description h2{
+        background-color: var(--VERY-PALE-RED);
+        background-size: auto;
+    }
+
+
+    @media screen and (max-width: 375px){
+        main .about .about__description h2{
+            font-size: .8rem;
+
+        }
+
+
+    }
+
+    
+   main .about .about__description{
+    position: relative;
+
+    top: 10px;
+}
+
+  main .about .about__header h2{
+    font-size: 2.3rem;
+    
+    
+}
+
+}
+
+
+
+/* about-media queries */
+
+/* testimonials */
+
+/* media queries */
+
+
+  
+/*  testimonials- media queries */
+/* main */
+
+/* Pre-Footer */
+
+ /* media queries */
+ 
+
+    
+
+ /* Pre-Footer-media queries x*/
+
+
+/* footer */
+
+
+
+ /* media queries footer */
+ 
+
+
+
+
+ /* footer media queries */
