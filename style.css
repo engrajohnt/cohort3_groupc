@@ -298,6 +298,37 @@ main .Side-bar-info h2{
 
 
 /* Side-Bar media queries */
+main .about .about__description h2{
+    font-size: 1.1rem;
+    margin: 10px 0px;
+    color: var(--DARK-BLUE);
+}
+main .about .about_description .about_counter{
+    background: var(--BRIGHT-RED);
+    color: var(--VERY-LIGHT-GREY);
+    padding: 6px 20px;
+    font-size: .8rem;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+main .about .about__description p{
+    font-size: .805rem;
+    margin: 20px 0px 5px 70px;
+    line-height: 1.7;
+    color: var(--DARK-GREYISH-BLUE);
+    position: relative;
+    left: 12px;
+    bottom: 15px;
+
+}
+
+main .about .about__description{
+    position: relative;
+    left: 430px;
+    bottom: 20px;
+}
+
 /* Side-bar */
 
 
