@@ -364,14 +364,114 @@ main .about .about__header p{
 }
 
 
-/* media queries */
+
+/* media queries  */
+@media screen and (max-width: 500px){
+    main .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .about .about__header h2{
+        font-size: 2.3rem;
+        text-align: center;
+        
+       
+        
+    }
+
+    main .about .about__header p{
+        text-align: center;
+    }
+
+    main .about .about__description{
+        position: relative;
+        left: -10px;
+    }
+
+    main .about .about__description h2{
+        background-color: var(--VERY-PALE-RED);
+        background-size: auto;
+    }
+
+
+    @media screen and (max-width: 375px){
+        main .about .about__description h2{
+            font-size: .8rem;
+
+        }
+
+
+    }
+
+    
+   main .about .about__description{
+    position: relative;
+
+    top: 10px;
+}
+
+  main .about .about__header h2{
+    font-size: 2.3rem;
+    
+    
+}
+
+}
+
 
 
 
 /* about-media queries */
 
 /* testimonials */
+main .testimonials{
+    margin: 20vh 0px 0px;
+    max-width: 100%;
+    
+    
+}
+main .testimonials .testimonials-cards{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+    
+   
 
+
+main .testimonials .testimonials-cards .testimonials-gallery .Test-title{
+    color: var(--DARK-BLUE);
+    position: relative;
+    bottom: 50px;
+    text-align: center;
+    
+
+}
+
+main .testimonials .testimonials__card-info{
+    background: var(--VERY-LIGHT-GREY);
+    padding: 10px 6px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    height: 30vh;
+
+}
+
+
+
+main .testimonials .testimonials__card-info img{
+    width: 60px;
+    position: absolute;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+main .testimonials .testimonials__card-info h2{
+    font-size: .8rem;
+    margin: 30px 0px 0px;
+    color: var(--DARK-BLUE);
+}
 
 main .testimonials .testimonials__card-info p{
     font-size: .805rem;
@@ -398,8 +498,9 @@ main .testimonial__btn {
 }
 /* media queries */
 
+}
 
-  
+
 /*  testimonials- media queries */
 /* main */
 
