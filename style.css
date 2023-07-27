@@ -329,7 +329,7 @@ main .about .about__description h2{
     margin: 10px 0px;
     color: var(--DARK-BLUE);
 }
-main .about .about_description .about_counter{
+.about_counter{
     background: var(--BRIGHT-RED);
     color: var(--VERY-LIGHT-GREY);
     padding: 6px 20px;
