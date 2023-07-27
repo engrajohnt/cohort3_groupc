@@ -68,6 +68,7 @@ body{
 }
 
 
+
 /* header */
 .header{
     display: flex;
@@ -95,6 +96,7 @@ body{
     width: 150px;
     position: relative;
     top: 5px;
+    left: 15px;
 }
 .header .navlist{
     display: flex;
@@ -137,8 +139,6 @@ body{
 
 
 
-
-
 /* media queries */
 @media screen and (max-width: 800px){
     .header__btn{
@@ -172,10 +172,10 @@ body{
           top: 260%;
           transform: translate(-50%, -50%);
     } 
-} 
+}
+
+
 /* /header media queries / */
-
-
 /* main */
 
 /* Side-bar */
@@ -518,7 +518,7 @@ main .testimonial__btn {
 
 
 }
-    }
+    
 /*  testimonials- media queries */
 /* main */
 
