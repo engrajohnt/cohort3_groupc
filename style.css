@@ -767,6 +767,54 @@ footer .footer-four .footer_form .footer_btn{
  
 
 
+@media screen and (max-width: 375px) {
+        .footer .footer-four .footer__form input{
 
+                width: 230px;
+               margin-right: 50px;
+               
+        }
+
+        .footer .footer-four .footer_form .footer_btn{
+            bottom: 387px;
+            right: 35px;
+        }
+
+        .footer-wrap{
+            display: flex;
+            font-size: .6rem;
+            gap: 110px;
+            word-spacing: -1px;
+            min-width: 150%;
+
+
+    
+        }
+
+        
+        .footer .footer-one .footer__icons  {
+            /* padding:  5% 5%; */
+            min-width: 170%; 
+            
+        }
+
+        .footer .footer-one .footer__icons > i{
+            position: relative;
+            right: 40px;
+        }
+
+        .footer_logo{
+            position: relative;
+            top: 70px;
+            left: 8px;
+
+    }
+        .footer__copyright{
+            font-size: smaller;
+            margin-left: 40px;
+    
+    }
+
+}
 
  /* footer media queries */
