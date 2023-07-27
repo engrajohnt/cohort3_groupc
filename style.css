@@ -424,7 +424,7 @@ main .testimonials .testimonials-cards{
     justify-content: space-evenly;
     gap: 20px;
     width: 100%;
-    
+}  
    
 
 
@@ -518,7 +518,7 @@ main .testimonial__btn {
 
 
 }
-
+    }
 /*  testimonials- media queries */
 /* main */
 
@@ -726,46 +726,6 @@ footer .footer-four .footer_form .footer_btn{
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
 
 @media screen and (max-width: 375px) {
         .footer .footer-four .footer__form input{
