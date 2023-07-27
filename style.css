@@ -181,10 +181,10 @@ body{
 
 /* Side-bar */
 main{
-    background: url(images/bg-tablet-pattern.svg) top right / 600px 700px no-repeat, 
-    url(images/bg-tablet-pattern.svg) bottom left / 600px 700px  no-repeat ;
+    background: url(images/bg-tablet-pattern.svg) top right / 700px 750px no-repeat, 
+    url(images/bg-tablet-pattern.svg) bottom left / 620px 700px  no-repeat ;
     padding : 18vh 6vw;
-    background-position: 119% -20%, -60% 95% ;  
+    background-position: 119% -20%, -45% 85% ;  
 
 }
 main .Side-bar{
