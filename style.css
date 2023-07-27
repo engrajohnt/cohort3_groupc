@@ -83,7 +83,7 @@ body{
      background-size: 20px;
     
 
-    z-index: 100;
+  
 }
 .header .header__logo{
     width: 140px;
@@ -96,6 +96,7 @@ body{
     width: 150px;
     position: relative;
     top: 5px;
+    left: 15px;
    
 }
 .header .navlist{
@@ -123,7 +124,7 @@ body{
     font-size: .8rem;
     box-shadow: var(--BOX-SHADOW);
     position: relative;
-    left: 200px;
+    left: 222px;
     padding: 12px 15px;
     margin-top: 10px;
 }
@@ -507,7 +508,7 @@ main .testimonial__btn {
         
 
     }
-
+    }
 
 @media screen and (max-width: 375px) {
     main .testimonials .testimonials__card-info{
