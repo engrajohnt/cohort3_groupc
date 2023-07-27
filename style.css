@@ -497,8 +497,40 @@ main .testimonial__btn {
         
 }
 /* media queries */
+ 
+  
+@media screen and (max-width: 500px) {
+    main .testimonials .testimonials__card-info{
+        height: 30vh;
+    }
+
+    .testimonials-gallery-wrapper{
+        
+       width: 100%;
+        flex-direction: column;
+        position: relative;
+        right: 0px;
+        
+
+    }
 
 }
+@media screen and (max-width: 375px) {
+    main .testimonials .testimonials__card-info{
+        height: 33vh;
+
+   
+    }
+
+
+} 
+
+  
+
+/* Testimonials */
+
+
+
 
 
 /*  testimonials- media queries */
