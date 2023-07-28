@@ -640,7 +640,7 @@ main .testimonial__btn {
 footer .footer-four .footer__form input::placeholder{
     color: var(--DARK-GREYISH-BLUE);
 }
-footer .footer-four .footer_form .footer_btn{
+footer .footer-four .footer__form .footer__btn{
     padding: 7px 15px;    
     border-radius: 20px;
     font-size: .9rem;
