@@ -124,7 +124,7 @@ body{
     font-size: .8rem;
     box-shadow: var(--BOX-SHADOW);
     position: relative;
-    left: 222px;
+    left: 183px;
     padding: 12px 15px;
     margin-top: 10px;
 }
@@ -528,15 +528,15 @@ main .testimonial__btn {
     height: 25vh;
     display: flex;
     justify-content: space-around;
-    padding: 6vh 0px;
+    padding: 6vh 8rem;
     align-items: center;
     background-image: url(images/bg-tablet-pattern.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-color: var(--BRIGHT-RED);
     background-blend-mode:color-burn;
-    /* width: 100rem;  
-    position: relative;
+    width: 100%;  
+    /*position: relative;
     right: 120px ; */
     
 }
@@ -544,7 +544,7 @@ main .testimonial__btn {
     color: var(--VERY-LIGHT-GREY);
     font-size: 2rem;
     position: relative;
-    right: 150px;
+    right: 8px;
 }
 .Pre-Footer .Pre-Footer__btn{
     background: var(--VERY-LIGHT-GREY);
@@ -552,6 +552,7 @@ main .testimonial__btn {
     font-size: 1rem;
     font-weight: 600;
     padding: 10px;
+    margin-left: 150px
 }
  /* media queries */
  @media screen and (max-width: 500px) {
