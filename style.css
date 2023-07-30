@@ -553,7 +553,7 @@ main .testimonial__btn {
     font-weight: 600;
     padding: 10px;
     position: relative;
-    margin-left: 125px
+    left: 125px
 }
  /* media queries */
  @media screen and (max-width: 500px) {
