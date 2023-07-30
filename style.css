@@ -527,15 +527,15 @@ main .testimonial__btn {
 .Pre-Footer{
     height: 25vh;
     display: flex;
-    justify-content: space-between;
-    padding: 6vh 8rem;
+    justify-content: space-around;
+    padding: 6vh 0px;
     align-items: center;
     background-image: url(images/bg-tablet-pattern.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-color: var(--BRIGHT-RED);
     background-blend-mode:color-burn;
-    width: 100%;  
+/*     width: 100%;   */
     /*position: relative;
     right: 120px ; */
     
@@ -544,7 +544,7 @@ main .testimonial__btn {
     color: var(--VERY-LIGHT-GREY);
     font-size: 2rem;
     position: relative;
-    right: 8px;
+    right: 150px;
 }
 .Pre-Footer .Pre-Footer__btn{
     background: var(--VERY-LIGHT-GREY);
