@@ -527,7 +527,7 @@ main .testimonial__btn {
 .Pre-Footer{
     height: 25vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 6vh 8rem;
     align-items: center;
     background-image: url(images/bg-tablet-pattern.svg);
