@@ -545,7 +545,7 @@ main .testimonial__btn {
     color: var(--VERY-LIGHT-GREY);
     font-size: 2rem;
     position: relative;
-    right: 135px;
+    right: 150px;
 }
 .Pre-Footer .Pre-Footer__btn{
     background: var(--VERY-LIGHT-GREY);
@@ -554,7 +554,7 @@ main .testimonial__btn {
     font-weight: 600;
     padding: 10px;
     position: relative;
-    left: 140px
+    left: 125px
 }
  /* media queries */
  @media screen and (max-width: 500px) {
