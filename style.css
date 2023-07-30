@@ -197,6 +197,7 @@ main .Side-bar{
 main .Side-bar-info {
     padding: 0px 7px;
     color: var(--DARK-BLUE);
+    min-width: 100%;
 }
 main .Side-bar-info h2{
     font-size: 8em;
@@ -544,7 +545,7 @@ main .testimonial__btn {
     color: var(--VERY-LIGHT-GREY);
     font-size: 2rem;
     position: relative;
-    right: 130px;
+    right: 125px;
 }
 .Pre-Footer .Pre-Footer__btn{
     background: var(--VERY-LIGHT-GREY);
@@ -553,7 +554,7 @@ main .testimonial__btn {
     font-weight: 600;
     padding: 10px;
     position: relative;
-    left: 125px
+    left: 150px
 }
  /* media queries */
  @media screen and (max-width: 500px) {
