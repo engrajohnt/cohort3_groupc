@@ -167,14 +167,14 @@ body{
         display: flex;
     }
 }
-@media screen and (max-width: 540px){
+/* @media screen and (max-width: 540px){
     .header .navlist.active{
          left: 50%;
           top: 260%;
           transform: translate(-50%, -50%);
     } 
 }
-
+ */
 
 /* /header media queries / */
 /* main */
