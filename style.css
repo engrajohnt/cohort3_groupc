@@ -297,6 +297,9 @@ main .Side-bar-info h2{
      main .Side-bar-info h2{
         font-size: 2.3rem;
     }
+     main .Side-bar-info p{
+        font-size: 1rem ;
+    }
 
 }
 
