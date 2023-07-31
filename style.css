@@ -587,6 +587,11 @@ main .testimonial__btn {
         position: relative;
         left: 0px;
 }
+    .Pre-Footer .Pre-Footer__btn{
+     position: relative;
+     left: 50px
+
+    }
 }
 
  /* Pre-Footer-media queries x*/
