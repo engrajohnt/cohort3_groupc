@@ -589,7 +589,7 @@ main .testimonial__btn {
 }
     .Pre-Footer .Pre-Footer__btn{
      position: relative;
-     left: 5px
+     left: 2px
 
     }
 }
@@ -731,7 +731,7 @@ footer .footer-four .footer__form .footer__btn{
     .footer .footer-four .footer_form .footer__btn {
         padding: 10px 15px;
         font-size: .9rem;
-        position: absolute;
+        position: relative;
         bottom: 393px;
         right: 35px;
     }
