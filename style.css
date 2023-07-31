@@ -589,7 +589,7 @@ main .testimonial__btn {
 }
     .Pre-Footer .Pre-Footer__btn{
      position: relative;
-     left: 2px
+     left: 0px
 
     }
 }
@@ -752,10 +752,10 @@ footer .footer-four .footer__form .footer__btn{
                
         }
 
-        .footer .footer-four .footer_form .footer__btn{
+        .footer__btn{
             positive:relative;
-            left:230px;
-            bottom:82px;
+            left:240px;
+            top:-82px;
         }
 
         .footer-wrap{
