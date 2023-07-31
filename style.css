@@ -163,7 +163,7 @@ body{
         opacity: 1;
         left: 200px;
     }
- .hamburger{
+    .hamburger{
         display: flex;
     }
 }
@@ -298,7 +298,7 @@ main .Side-bar-info h2{
         font-size: 2.3rem;
     }
      main .Side-bar-info p{
-        font-size: 1rem ;
+        font-size: .9rem ;
     }
 
 }
@@ -589,7 +589,7 @@ main .testimonial__btn {
 }
     .Pre-Footer .Pre-Footer__btn{
      position: relative;
-     left: 50px
+     left: 5px
 
     }
 }
@@ -753,8 +753,9 @@ footer .footer-four .footer__form .footer__btn{
         }
 
         .footer .footer-four .footer_form .footer__btn{
-            bottom: 85px;
-            right: -230px;
+            positive:relative;
+            left:230px;
+            bottom:82px;
         }
 
         .footer-wrap{
