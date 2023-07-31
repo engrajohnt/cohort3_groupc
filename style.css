@@ -294,6 +294,9 @@ main .Side-bar-info h2{
         padding : 18vh 6vw;
             background-position: -180% -2% , -400% 23% ;
     }
+     main .Side-bar-info h2{
+        font-size: 2.3rem;
+    }
 
 }
 
