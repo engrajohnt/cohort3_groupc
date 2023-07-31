@@ -728,14 +728,14 @@ footer .footer-four .footer__form .footer__btn{
         margin-right: 40px;
     }
 
-    .footer .footer-four .footer_form .footer__btn {
+/*     .footer .footer-four .footer_form .footer__btn {
         padding: 10px 15px;
         font-size: .9rem;
         position: relative;
         bottom: 393px;
         right: 35px;
     }
-
+ */
     .footer__copyright {
         font-size: smaller;
         margin-left: 100px;
@@ -753,6 +753,8 @@ footer .footer-four .footer__form .footer__btn{
         }
 
         .footer__btn{
+            padding: 10px 15px;
+            font-size: .9rem;
             positive:relative;
             left:240px;
             top:-82px;
